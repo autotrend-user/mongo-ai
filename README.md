@@ -1,4 +1,4 @@
-# mgo-autoincrement (ai)
+# mongo-driver-autoincrement (ai)
 Package **ai** implements AutoIncrement methods for mongo-driver(golang) 
 
 ## How To Install
@@ -50,7 +50,7 @@ func main() {
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 1, Abril 2020
 
-Copyright (C) 2020 DEnnys Freire <dennysvf@gmail.com>
+Copyright (C) 2020 Dennys Freire <dennysvf@gmail.com>
 
 Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
