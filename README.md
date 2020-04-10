@@ -37,8 +37,8 @@ func main() {
 
 	ai := ai.Create(collection)
 
-	client.Database("example-db").Collection("users").InsertOne(ctx, bson.M{
-		"seq":   ai.Next("sequenc"),
+    client.Database("example-db").Collection("users").InsertOne(ctx, bson.M{
+		"_id":   ai.Next("sequenc"),
 		"login": "test",
 		"age":   32,
 	})
